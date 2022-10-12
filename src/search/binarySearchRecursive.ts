@@ -1,5 +1,5 @@
 function binarySearchRecursive(array: number[], target: number): number {
-    return binaryRecursive(array, target, 0, array.length);
+    return binaryRecursive(array, target, 0, array.length - 1);
 }
 
 function binaryRecursive(array: number[], target: number, start: number, end: number): number {
